@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="crosslink_blinky" device="LIF-MD6000-6MG81I" default_implementation="impl1">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="I/O Assistant">
+        <Options def_top="crosslink_blinky"/>
+        <Source name="../hdl/crosslink_blinky_top.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="crosslink_blinky"/>
+        </Source>
+        <Source name="../ip/pll/pll.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="../sim/crosslink_blinky_tb.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="../constraints/crosslink_blinky.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="../sim/crosslink_blinky_sim/crosslink_blinky_sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="crosslink_blinky1.sty"/>
+</BaliProject>

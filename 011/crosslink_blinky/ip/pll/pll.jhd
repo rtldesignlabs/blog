@@ -1,0 +1,2 @@
+VHDL_ENTITY_ONLY pll DEFIN pll.vhd
+MODULE pll DEFIN pll.vhd
