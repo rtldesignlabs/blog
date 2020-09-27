@@ -3,7 +3,7 @@
     <Options>
         <Option name="HDL type" value="VHDL"/>
     </Options>
-    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="I/O Assistant">
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
         <Options def_top="crosslink_blinky"/>
         <Source name="../hdl/crosslink_blinky_top.vhd" type="VHDL" type_short="VHDL">
             <Options top_module="crosslink_blinky"/>
