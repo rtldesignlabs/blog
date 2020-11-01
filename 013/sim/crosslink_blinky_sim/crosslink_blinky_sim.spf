@@ -1,0 +1,9 @@
+<BaliSimProject version="1.3" path="../sim" stage="0" language="-1" name="crosslink_blinky_sim" simType="Active-HDL">
+    <Source worklib="work" path="../ip/pll/pll.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../hdl/crosslink_blinky_top.vhd" type="VHDL" include="none"/>
+    <Source worklib="work" path="../sim/crosslink_blinky_tb.vhd" type="VHDL" include="none"/>
+    <SimLib value="pmi_work ovi_lifmd"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VHDL" name="crosslink_blinky_tb"/>
+</BaliSimProject>

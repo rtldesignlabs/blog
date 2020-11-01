@@ -1,0 +1,35 @@
+# Ignore everything
+*
+# Allow whitelisting subdirectories
+!*/
+# Don't ignore the constraint files
+!/constraints/**/*.ldc
+!/constraints/**/*.lpf
+# Don't ignore the RTL files 
+!/hdl/**/*.sv
+!/hdl/**/*.v
+!/hdl/**/*.vh
+!/hdl/**/*.vhd
+!/hdl/**/*.vhdl
+!/hdl/**/*.ngo
+# Don't ignore any Clarity IP files
+!/ip/**/*
+# Don't ignore the output files
+!/output/*.bit
+# Don't ignore the project, strategy, debug, programming and analysis files
+!/project/*.ldf
+!/project/*.sty
+!/project/*.rvl
+!/project/*.rva
+!/project/*.xcf
+!/project/*.tpf
+!/project/*.pcf
+# Don't ignore the simulation files and script
+!/sim/**/*.sv
+!/sim/**/*.v
+!/sim/**/*.vh
+!/sim/**/*.vhd
+!/sim/**/*.vhdl
+!/sim/**/*.spf
+# Don't ignore this file
+!.gitignore
